@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.accent {
+  color: #16426e;
+  font-weight: bold;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.positive {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
